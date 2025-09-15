@@ -13,6 +13,7 @@
   boot.kernelModules = [ "kvm-amd" ];
   boot.extraModulePackages = [ ];
 
+  hardware.nvidia.open = true;
   fileSystems."/" =
     { device = "/dev/disk/by-uuid/1f4305ce-d3f2-4932-9766-802717d5ea8c";
       fsType = "ext4";
