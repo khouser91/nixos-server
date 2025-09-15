@@ -11,6 +11,7 @@
       ../common.nix
       ../../modules/filesystem.nix
       ../../modules/jellyfin.nix
+      ../../modules/caddy.nix
     ];
 
   # Bootloader.
