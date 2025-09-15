@@ -31,7 +31,7 @@
 				modules = [
 					./hosts/desktop-server/configuration.nix
 					nixos-hardware.nixosModules.common-cpu-amd
-					nixos-hardware.nixosModules.common-gpu-nvidia
+					nixos-hardware.nixosModules.common-gpu-nvidia-nonprime
 				];
 			};
         	};
