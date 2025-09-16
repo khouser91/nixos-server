@@ -7,8 +7,8 @@
 			respond "Hello, world!"
 		'';
 
-		virtualHosts."http://jellyfin.houserkaser.local".extraConfig = ''
-			reverse_proxy http://10.0.1.40:8096
+		virtualHosts."jellyfin.houserkaser.local".extraConfig = ''
+			reverse_proxy 10.0.1.40:8096
 		'';
 
 		virtualHosts."radarr.houserkaser.local".extraConfig = ''
