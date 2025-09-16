@@ -29,8 +29,5 @@
 			reverse_proxy 10.0.1.20:9696
 		'';
 
-		virtualHosts."hass.houserkaser.local".extraConfig = ''
-			reverse_proxy 10.0.1.10:8123
-		'';
 	};
 }
