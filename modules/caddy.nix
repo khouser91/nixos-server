@@ -30,7 +30,7 @@
 		'';
 		
 		globalConfig = ''
-			auto_https off
+			auto_https disable_certs
 		'';
 	};
 }
