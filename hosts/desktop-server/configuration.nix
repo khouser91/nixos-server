@@ -12,7 +12,7 @@
       ../../modules/filesystem.nix
       ../../modules/jellyfin.nix
       ../../modules/caddy.nix
-      ../../pangolin/newt.nix
+      ../../modules/pangolin/newt.nix
     ];
 
   # Bootloader.
