@@ -7,4 +7,8 @@
 		id = "tip4n96zov04j09";
 		environmentFile = /home/kevin/newt/var.env;	
   	};
+
+	networking.firewall.allowedTCPPorts = [
+		51820
+	];
 }
