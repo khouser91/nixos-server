@@ -31,6 +31,6 @@
 		
 		extraConfig = ''
 			auto_https disable_certs
-		''
+		'';
 	};
 }
