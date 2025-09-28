@@ -29,8 +29,8 @@
 			reverse_proxy 10.0.1.20:9696
 		'';
 		
-		extraConfig = ''
-			auto_https: disable_certs
+		globalConfig = ''
+			auto_https disable_certs
 		'';
 	};
 }
