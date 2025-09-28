@@ -8,7 +8,7 @@
 		environmentFile = /home/kevin/newt/var.env;	
   	};
 
-	networking.firewall.allowedTCPPorts = [
+	networking.firewall.allowedUDPPorts = [
 		51820
 		21820
 	];
